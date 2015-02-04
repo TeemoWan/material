@@ -52,6 +52,12 @@ md-slider {
   display: block;
   margin-left: 4px;
   margin-right: 4px;
+  padding: 0 24px;
+  overflow: hidden;
+
+  .md-slider-wrapper {
+    position: relative;
+  }
 
   /**
    * Track
